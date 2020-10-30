@@ -1,0 +1,24 @@
+{
+  "name": "status-lookup",
+  "version": "1.0.0",
+  "description": "simple status-int conversion, save memory and disk space",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Truth1984/status-lookup.git"
+  },
+  "keywords": [
+    "status",
+    "lookup",
+    "compression"
+  ],
+  "author": "Awada.Z",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Truth1984/status-lookup/issues"
+  },
+  "homepage": "https://github.com/Truth1984/status-lookup#readme"
+}
