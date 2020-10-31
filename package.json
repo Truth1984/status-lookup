@@ -1,6 +1,6 @@
 {
   "name": "status-lookup",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "simple status-int conversion, save memory and disk space",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Truth1984/status-lookup/issues"
   },
-  "homepage": "https://github.com/Truth1984/status-lookup#readme"
+  "homepage": "https://github.com/Truth1984/status-lookup#readme",
+  "dependencies": {
+    "big-integer": "^1.6.48"
+  }
 }
