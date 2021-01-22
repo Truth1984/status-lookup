@@ -15,7 +15,7 @@ module.exports = class {
 
   lookup(bigInt) {
     let result = {};
-    let binary = bigInt.toString(2);
+    let binary = bigint(bigInt).toString(2);
     let originKey = Object.keys(this.dict);
     for (let i = binary.length; i > -1; i--) if (binary[i] == "1") result[originKey[binary.length - 1 - i]] = true;
     return result;
