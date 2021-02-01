@@ -20,4 +20,14 @@ module.exports = class {
     for (let i = binary.length; i > -1; i--) if (binary[i] == "1") result[originKey[binary.length - 1 - i]] = true;
     return result;
   }
+
+  /**
+   *  mainly for sql, check for details
+   */
+  has(bigInt, key) {
+    if (!this.dict[key]) return false;
+    let index = this.dict[key];
+
+    return ((bigint(bigInt) >> index) & 1) == 1;
+  }
 };
